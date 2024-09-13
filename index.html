@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>tic tac toe</title>
+  </head>
+  <body>
+    <nav class="intro">
+      <h1 id="introMesg">Welcome!</h1>
+    </nav>
+    <nav class="buttons">
+      <nav class="row1">
+        <button class="but" onclick="playGame(`img1`, `1`)" id="1">
+          <img id="img1" src="imgs/icons8-flower-100.png" alt="" />
+        </button>
+        <button class="but" onclick="playGame(`img2`, `2`)" id="2">
+          <img id="img2" src="imgs/icons8-flower-100.png" alt="" />
+        </button>
+        <button class="but" onclick="playGame(`img3`, `3`)" id="3">
+          <img id="img3" src="imgs/icons8-flower-100.png" alt="" />
+        </button>
+      </nav>
+      <nav class="row2">
+        <button class="but" onclick="playGame(`img4`, `4`)" id="4">
+          <img id="img4" src="imgs/icons8-flower-100.png" alt="" />
+        </button>
+        <button class="but" onclick="playGame(`img5`, `5`)" id="5">
+          <img id="img5" src="imgs/icons8-flower-100.png" alt="" />
+        </button>
+        <button class="but" onclick="playGame(`img6`, `6`)" id="6">
+          <img id="img6" src="imgs/icons8-flower-100.png" alt="" />
+        </button>
+      </nav>
+      <nav class="row3">
+        <button class="but" onclick="playGame(`img7`, `7`)" id="7">
+          <img id="img7" src="imgs/icons8-flower-100.png" alt="" />
+        </button>
+        <button class="but" onclick="playGame(`img8`, `8`)" id="8">
+          <img id="img8" src="imgs/icons8-flower-100.png" alt="" />
+        </button>
+        <button class="but" onclick="playGame(`img9`, `9`)" id="9">
+          <img id="img9" src="imgs/icons8-flower-100.png" alt="" />
+        </button>
+      </nav>
+    </nav>
+    <nav class="turn">
+      <p id="turnInfo"></p>
+    </nav>
+    <nav class="end">
+      <button id="reset" onclick="resetGame()">Reset</button>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>
