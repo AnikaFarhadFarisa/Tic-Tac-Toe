@@ -11,7 +11,7 @@ body{
 
 .intro #introMesg{
     color: brown;
-    font-size: 55px;
+    font-size: 2.5em;
 }
 
 .button1 #play:active{
@@ -27,8 +27,8 @@ body{
 
 .but{
     display: block;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 10px;
     background-color: teal;
     border: 1px solid;
@@ -44,11 +44,11 @@ body{
     justify-content: center;
     /* background-color: aqua; */
     position: relative;
-    top: 100px;
+    top: 2.5em;
 }
 
 .turn p{
-    font-size: 45px;
+    font-size: 2.5em;
     color: brown;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -62,9 +62,9 @@ body{
 }
 
 .end #reset{
-    height: 45px;
-    width: 95px;
-    font-size: 25px;
+    height: 40px;
+    width: 90px;
+    font-size: 1.35em;
     background-color: brown;
     color: aliceblue;
     border-radius: 10px;
